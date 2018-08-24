@@ -48,7 +48,8 @@ body{
  .viewButton{
         height: 80px;
         width: 80px;
-        background:url(husky.jpg);
+        background-color: transparent;
+        /* background:url(husky.jpg); */
         background-size: cover; 
         margin: 0;
     }
@@ -156,4 +157,7 @@ body{
   right: 1px;
   font-family: fantasy;
   font-size: 18px;
+}
+.letter:hover {
+  display: inline-block;
 }
